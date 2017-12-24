@@ -16,7 +16,6 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
-      <scope>test</scope>
     </dependency>
     <!-- 1.日志 -->
     <!-- 实现slf4j接口并整合 -->
