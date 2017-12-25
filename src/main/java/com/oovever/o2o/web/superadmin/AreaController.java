@@ -2,6 +2,8 @@ package com.oovever.o2o.web.superadmin;
 
 import com.oovever.o2o.entity.Area;
 import com.oovever.o2o.service.AreaService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -36,6 +38,9 @@ public class AreaController {
             modelMap.put("success", false);
             modelMap.put("errMsg", e.toString());
         }
+
+
+
         return modelMap;
     }
 }
